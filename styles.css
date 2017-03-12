@@ -78,8 +78,17 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgb(255,64,129);
+  background-color: red;
   left: 15%;
+}
+
+.mdl-button--accent.mdl-button--accent{
+    color: black!important;
+    background-color: whitesmoke!important;
+}
+
+..mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab{
+    color: red !important;
 }
 
 .portfolio-card .mdl-card__title {
