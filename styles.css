@@ -32,13 +32,13 @@
   background: url(images/logo.png) 50% no-repeat;
   background-size: cover;
   height: 150px;
-  width: 150px;
+  width: 300px;
   margin: auto auto 10px;
 }
 
 .is-compact .portfolio-logo {
   height: 50px;
-  width: 50px;
+  width: 100px;
   margin-top: 7px;
 }
 
