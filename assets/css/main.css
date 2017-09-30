@@ -3039,6 +3039,9 @@ button:disabled,
     #logo-name {
         display: none;
     }
+    #content-team {
+        display: -webkit-box;
+    }
 }
 
 
@@ -3077,6 +3080,10 @@ button:disabled,
     color: #FFF;
 }
 
+#content-team {
+    display: flex;
+}
+
 @media screen and (max-width: 980px) {
     #footer {
         padding: 4em 0;
@@ -3086,6 +3093,9 @@ button:disabled,
     }
     #logo-name {
         display: none;
+    }
+    #content-team {
+        display: -webkit-box;
     }
 }
 
@@ -3098,5 +3108,8 @@ button:disabled,
     }
     #logo-name {
         display: none;
+    }
+    #content-team {
+        display: -webkit-box;
     }
 }
