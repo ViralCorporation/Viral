@@ -154,7 +154,8 @@ body {
 }
 
 #title-section {
-    margin-bottom: 0 !important;
+    margin-bottom: 1em !important;
+    width: 100%;
 }
 
 .text-section-five {
@@ -3042,8 +3043,7 @@ button:disabled,
     #content-team {
         display: grid;
     }
-    .card-employ{
-        padding-left: 2em;
+    .card_employ{
         margin: 0em 2em 0em 2em;
     }
 }
@@ -3102,7 +3102,6 @@ button:disabled,
         display: grid;
     }
     .card-employ{
-        padding-left: 2em;
         margin: 0em 2em 0em 2em;
     }
 }
@@ -3121,7 +3120,6 @@ button:disabled,
         display: grid;
     }
     .card-employ{
-        padding-left: 2em;
         margin: 0em 2em 0em 2em;
     }
 }
