@@ -108,6 +108,10 @@ article {
     margin-top: 2em;
 }
 
+#logo {
+    width: 6em;
+}
+
 body {
     line-height: 1;
 }
@@ -152,19 +156,28 @@ body {
 #title-section {
     margin-bottom: 0 !important;
 }
-.text-section-five{
+
+.text-section-five {
     color: whitesmoke;
 }
-#five{
+
+#five {
     display: flex;
 }
+
 #name_employ {
     margin-bottom: 0;
 }
-.card_employ{
-    display:inline;
+
+#logo-name {
+    margin-top: 1em;
+}
+
+.card_employ {
+    display: inline;
     margin: 4em 4em 4em 0em;
 }
+
 
 /* Box Model */
 
@@ -2674,7 +2687,7 @@ button:disabled,
 
 #header .logo {
     color: #ffffff;
-    display: inline-block;
+    display: -webkit-box;
     font-weight: 400;
     height: inherit;
     left: 0;
@@ -3020,6 +3033,12 @@ button:disabled,
     #banner h1 {
         font-size: 1.5em;
     }
+    #logo {
+        width: 4em;
+    }
+    #logo-name {
+        display: none;
+    }
 }
 
 
@@ -3062,10 +3081,22 @@ button:disabled,
     #footer {
         padding: 4em 0;
     }
+    #logo {
+        width: 4em;
+    }
+    #logo-name {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 736px) {
     #footer {
         padding: 3em 0;
+    }
+    #logo {
+        width: 4em;
+    }
+    #logo-name {
+        display: none;
     }
 }
