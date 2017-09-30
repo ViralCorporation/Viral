@@ -175,7 +175,7 @@ body {
 
 .card_employ {
     display: inline;
-    margin: 4em 4em 4em 0em;
+    margin: 4em 4em 4em 4em;
 }
 
 
@@ -3040,7 +3040,11 @@ button:disabled,
         display: none;
     }
     #content-team {
-        display: -webkit-box;
+        display: grid;
+    }
+    .card-employ{
+        padding-left: 2em;
+        margin: 0em 4em 0em 4em;
     }
 }
 
@@ -3095,7 +3099,11 @@ button:disabled,
         display: none;
     }
     #content-team {
-        display: -webkit-box;
+        display: grid;
+    }
+    .card-employ{
+        padding-left: 2em;
+        margin: 0em 4em 0em 4em;
     }
 }
 
@@ -3110,6 +3118,10 @@ button:disabled,
         display: none;
     }
     #content-team {
-        display: -webkit-box;
+        display: grid;
+    }
+    .card-employ{
+        padding-left: 2em;
+        margin: 0em 4em 0em 4em;
     }
 }
