@@ -7,16 +7,7 @@ google.maps.event.addDomListener(window, 'load', init);
 function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-    function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 4,
-            center: {
-                lat: -33,
-                lng: 151
-            },
 
-        });
-    }
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
         zoom: 16,
