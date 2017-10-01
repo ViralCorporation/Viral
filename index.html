@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="shortcut icon" href="images/Flat%20Logo.png" />
     <script src="https://use.fontawesome.com/861a8c26eb.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 </head>
 
 <body>
@@ -179,9 +180,15 @@
             </div>
         </div>
     </section>
-    <section id='five' class="align-center" >
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.5381700719945!2d-40.3589205852412!3d-3.691945797313759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7eac6e4e5fd98e9%3A0xca6bf83bf4f5bb8!2sAv.+Dom+Jos%C3%A9%2C+2285+-+Dom+Jose%2C+Sobral+-+CE%2C+62015-400!5e0!3m2!1spt-BR!2sbr!4v1506871716821" width="100%" height="655vh" frameborder="0" style="border:0" allowfullscreen id="location"></iframe>
+    <section id='five' class="align-center" style='display: inline' >
+        <div class="wrapper" style="width: 100%; height: 150px; background: white; float: left; position: relative; opacity: 1; margin: 2em;">
+            <h2 color="black">Localização</h2>
+            <span>Av. Dom José, 2285 <br> Sobral - CE, 62010295</span>
+        </div>
+        <div id="map"></div>
+
     </section>
+
     <!-- Footer -->
     <footer id="footer" >
         <div class="inner" id='contact'>
