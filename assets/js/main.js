@@ -14,6 +14,12 @@ function init() {
 
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(-3.691935, -40.356743), // Sobral
+        zoomControl: false,
+        mapTypeControl: false,
+        scaleControl: false,
+        streetViewControl: false,
+        rotateControl: false,
+        fullscreenControl: true,
 
         // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
