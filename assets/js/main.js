@@ -3,13 +3,12 @@
 */
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
-
 function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 11,
+        zoom: 16,
 
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(-3.691935, -40.356743), // New York
