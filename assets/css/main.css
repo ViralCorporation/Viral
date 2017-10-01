@@ -2482,6 +2482,10 @@ table.alt tfoot {
 
 /* Button */
 
+#social-media{
+    font-size: 24px;
+    padding: 0.5em;
+}
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -3038,7 +3042,7 @@ button:disabled,
         width: 4em;
     }
     #logo-name {
-        display: none;
+        margin-top: 0.3em;
     }
     #content-team {
         display: grid;
@@ -3096,7 +3100,7 @@ button:disabled,
         width: 4em;
     }
     #logo-name {
-        display: none;
+        margin-top: 0.3em;
     }
     #content-team {
         display: grid;
@@ -3114,7 +3118,7 @@ button:disabled,
         width: 4em;
     }
     #logo-name {
-        display: none;
+        margin-top: 0.3em;
     }
     #content-team {
         display: grid;
