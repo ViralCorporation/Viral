@@ -115,6 +115,18 @@ article {
     margin-top: 2em;
 }
 
+#location-card {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    opacity: 1;
+    margin: 2em;
+}
+
+#map{
+    position: relative;
+}
+
 #logo {
     width: 6em;
 }
