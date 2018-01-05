@@ -116,11 +116,14 @@ article {
 }
 
 #location-card {
-    width: 150px;
-    height: 150px;
-    position: relative;
+    width: 200px;
+    height: 200px;
+    padding-top: 1em;
     opacity: 1;
     margin: 2em;
+    position: absolute;
+    z-index: 20000000;
+    background: white;
 }
 
 #map{
